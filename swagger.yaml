@@ -420,6 +420,12 @@ paths:
           required: true
           type: "string"
           format: "uuid"
+        - name: "spriteId"
+          in: "path"
+          description: "ID of sprite that needs to be created"
+          required: true
+          type: "string"
+          format: "uuid"
         - in: "body"
           name: "body"
           description: "Sprite object that needs to be updated"
